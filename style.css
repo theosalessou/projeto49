@@ -1,0 +1,21 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.button {
+  background: green;
+  border: 2px solid lightgreen;
+  color: lightgreen;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background: lightgreen;
+  border: 2px solid green;
+  color: green;
+  cursor: pointer;
+}
